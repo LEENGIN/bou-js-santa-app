@@ -1,0 +1,46 @@
+{
+  "name": "santa-app",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "server.js",
+  "scripts": {
+    "start:vite": "vite --port 3000",
+    "start": "node -r dotenv/config server.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^3.1.0",
+    "axios": "^1.7.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.13",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.34",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.4",
+    "vite": "^4.2.1"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "repository": {
+    "url": "git+https://github.com/alj-devops/santa-app.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ],
+  "bugs": {
+    "url": "https://github.com/alj-devops/santa-app/issues"
+  },
+  "homepage": "https://github.com/alj-devops/santa-app#readme",
+  "author": ""
+}
